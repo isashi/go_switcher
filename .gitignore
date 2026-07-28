@@ -1,0 +1,11 @@
+# Local Go installations: do not commit downloaded binaries
+go
+go[0-9]*/
+
+# Temporary/downloaded archives
+*.tar.gz
+
+# System/editor files
+.DS_Store
+.vscode/
+.idea/
